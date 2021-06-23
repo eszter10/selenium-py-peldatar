@@ -1,0 +1,5 @@
+import bmodul
+
+
+print(barack)
+
