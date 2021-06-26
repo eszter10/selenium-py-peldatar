@@ -5,3 +5,5 @@ for i in range(26):
 
 #sorokba rendezés
 #print(szam, chr(szam,),szam, chr(szam,),szam, chr(szam,))
+
+
