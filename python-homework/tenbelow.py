@@ -1,14 +1,20 @@
 x = 0
-#szám beírását kérem a felhasználótól, számmá alakítom,a beírt számokat összeadom
-for i in range(3):
-    my_input= input("Írj be egy számot! ")
-    x += int(my_input)
 
-print("Az összeg: ",(x))
+#szám beírását kérem a felhasználótól amíg 10-nél kisebbet ír, számmá alakítom
+while True:
+    my_x = int(input())
+    if my_x >= 10:
+        break
+#a beírt számokat összeadom
+    x += my_x
 
-#10-nél kisebb számokat kiírom
-#while x < 10:
- #   print(x)
+#az összeget kiiratom
+print(x)
+
+
+
+
+
 
 
 
