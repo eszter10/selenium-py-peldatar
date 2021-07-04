@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 driver = webdriver.Chrome()
 
 try:
-    driver.get("https://gentle-bay-0e4e13803.azurestaticapps.net/")
+    driver.get("https://gentle-bay-0e4e13803.azurestaticapps.net/trickybuttons.html")
     found_elements = [driver.find_element_by_id("element1"), driver.find_element_by_id("element2"), driver.find_element_by_id("element3"),
                       driver.find_element_by_id("element4"), driver.find_element_by_id("element5")]
     for element in found_elements:
