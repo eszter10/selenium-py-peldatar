@@ -1,5 +1,5 @@
-import bmodul
+# importálom a bmodulból x-et
+from bmodul import x
 
-
-print(barack)
-
+# kiíratom x-et
+print('x', x)
