@@ -14,3 +14,5 @@ while True:
     else:
         print(f'parancsoljon itt a {rendeles}')
     exit()
+
+
