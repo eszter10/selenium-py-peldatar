@@ -7,8 +7,7 @@ driver.get("https://www.google.com/")
 q = driver.find_element_by_name("q")
 q.send_keys("idokep.hu")
 
-
-submit = driver.find_element_by_name("q")
+submit = driver.find_element_by_name('btnK')
 submit.click()
 
 driver.close()
